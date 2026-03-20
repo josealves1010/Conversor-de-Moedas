@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.logo-principal {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main {
+    /* Minha caixa principal */
+    width: 375px;
+    border-radius: 20px;
+    background-color: rgb(169, 169, 169);
+    margin: 0 auto;
+    padding-top: 30px;
+    /* Cima */
+    padding-left: 30px;
+    /* Esquerdo */
+    padding-bottom: 30px;
+    /* Baixo */
+    padding-right: 30px;
+    /* Direita */
+}
+
+
+label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select {
+    width: 327px;
+    height: 48px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+
+    font-weight: 700;
+    font-size: 16px;
+
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+
+
+
+
+
+
+}
+
+
+
+input {
+    width: 327px;
+    height: 48px;
+    margin-bottom: 15px;
+    font-size: 15px;
+
+
+}
+
+
+button {
+    width: 327px;
+    height: 48px;
+    top: 329px;
+    left: 24px;
+    cursor: pointer;
+
+    border-radius: 5px;
+    background-color: blue;
+    color: #ffff;
+
+
+    font-weight: 700;
+    font-size: 18px;
+
+    vertical-align: middle;
+
+
+}
+
+.section {
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.seta {
+    margin: 15px 0;
+}
+
+.real { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.dolar {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}

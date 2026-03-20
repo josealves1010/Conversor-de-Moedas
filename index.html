@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Convert Money</title>
+</head>
+
+<body>
+    <img class="logo-principal" src="./assetes/logo.png" alt="Logo convert">
+
+    <main>
+
+        <label>Converter <b>de</b> </label>
+        <!-- A tag <label> em HTML é um elemento fundamental utilizado para criar rótulos ou legendas para campos de entrada de formulários (como <input>, <textarea>, <select> -->
+        <select> <!-- permitindo que os usuários escolham uma ou mais opções pré-definidas -->
+            <option> R$ Real Brasileiro</option>
+            <option value="libra"> £ Libra</option>
+            <option value="bitcoin">₿ Bitcoin</option>
+            <!-- A tag <option> no HTML é utilizada dentro de elementos <select> -->
+        </select>
+
+        <label>Converter <b>para</b> </label>
+        <select class="currency-select">
+            <option value="dolar"> US$ Dólar americano</option>
+            <option value="euro"> € Euro </option> <!-- opções de escolhas -->
+            <option value="libra"> £ Libra</option>
+            <option value="bitcoin">₿ Bitcoin</option>
+        </select>
+
+
+        <label>
+            Valor
+            <input class="input-curreny"  placeholder="10.000,000">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section class="section"> <!-- Caixa para colocar os elementos -->
+
+            <div class="real">
+                <img src="./assetes/brasil 2.png" alt="brasil">
+                <p class="currency-br">Real</p>
+                <p class="currency-value-br">R$ 0,00</p>
+            </div>
+
+            <img class="seta" src="./assetes/Vector.png" alt="seta">
+
+            <div class="dolar">
+                <img  class="currecy-img"  src="./assetes/estados-unidos.png" alt="eua">
+                <p class="currency-eua">Dólar</p>
+                <p class="currecy-value">US$ 0.00</p>
+            </div>
+
+            
+
+      
+
+        </section>
+
+
+
+    </main>
+</body>
+    <script src="./scripts.js"></script>
+</html>
