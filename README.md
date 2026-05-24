@@ -1,6 +1,6 @@
 # 💰 Convert Money 
 
-Este projetos é prático, desenvolvido durante o meu aprendizado no DevClub. É um conversor de moedas simples, objetivo.
+Este projetos é prático, desenvolvido durante o meu aprendizado no DevClub. É um conversor de moedas, euro, libra e dolar.
 
 ---
 
